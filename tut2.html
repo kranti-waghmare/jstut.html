@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="on()">on</button>
+
+    <img src="https://thumbs.dreamstime.com/b/contrast-shower-water-stream-hot-steam-42085289.jpg" id="shower" height="200px" width="200px">
+
+    <button onclick="off()">off</button>
+
+
+
+    <script>
+        function on(){
+            document.getElementById('shower').src="https://thumbs.dreamstime.com/b/contrast-shower-water-stream-hot-steam-42085289.jpg";
+        }
+
+        function off(){
+            document.getElementById('shower').src="https://www.shutterstock.com/image-photo/turn-off-hot-water-cold-260nw-2036076029.jpg";
+        }
+    </script>
+</body>
+</html>
